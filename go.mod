@@ -119,4 +119,3 @@ require (
 	gorm.io/driver/sqlite v1.1.4 // indirect
 	gorm.io/driver/sqlserver v1.0.4 // indirect
 )
-
