@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"git.tz.com/devops/gin-core/config/reader"
+	"github.com/devops-base/devops-core/config/reader"
 )
 
 type value struct{}

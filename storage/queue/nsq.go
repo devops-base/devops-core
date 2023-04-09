@@ -1,7 +1,7 @@
 package queue
 
 import (
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/storage"
 	json "github.com/json-iterator/go"
 	"github.com/nsqio/go-nsq"
 )

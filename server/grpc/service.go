@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	log "git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/server/grpc/interceptors/logging"
-	reqtags "git.tz.com/devops/gin-core/server/grpc/interceptors/request_tag"
+	log "github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/server/grpc/interceptors/logging"
+	reqtags "github.com/devops-base/devops-core/server/grpc/interceptors/request_tag"
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 	"google.golang.org/grpc"

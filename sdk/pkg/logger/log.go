@@ -4,12 +4,12 @@ import (
 	"io"
 	"os"
 
-	"git.tz.com/devops/gin-core/debug/writer"
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/plugins/logger/zap"
-	"git.tz.com/devops/gin-core/sdk/pkg"
+	"github.com/devops-base/devops-core/debug/writer"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/plugins/logger/zap"
+	"github.com/devops-base/devops-core/sdk/pkg"
 
-	log "git.tz.com/devops/gin-core/logger"
+	log "github.com/devops-base/devops-core/logger"
 )
 
 // SetupLogger 日志 cap 单位为kb

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"git.tz.com/devops/gin-core/logger"
+	"github.com/devops-base/devops-core/logger"
 )
 
 type Server struct {

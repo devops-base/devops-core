@@ -6,7 +6,7 @@ import (
 
 	"github.com/chanxuehong/wechat/oauth2"
 
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/storage"
 )
 
 const (

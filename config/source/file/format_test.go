@@ -3,7 +3,7 @@ package file
 import (
 	"testing"
 
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 func TestFormat(t *testing.T) {

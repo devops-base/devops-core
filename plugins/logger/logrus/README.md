@@ -1,6 +1,6 @@
 # logrus
 
-[logrus](https://github.com/sirupsen/logrus) logger implementation for __go-admin__ [meta logger](https://git.tz.com/devops/gin-core/tree/master/logger).
+[logrus](https://github.com/sirupsen/logrus) logger implementation for __go-admin__ [meta logger](https://github.com/devops-base/devops-core/tree/master/logger).
 
 ## Usage
 
@@ -8,7 +8,7 @@
 import (
 	"os"
 	"github.com/sirupsen/logrus"
-	"git.tz.com/devops/gin-core/logger"
+	"github.com/devops-base/devops-core/logger"
 )
 
 func ExampleWithOutput() {

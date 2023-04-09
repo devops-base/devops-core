@@ -3,7 +3,7 @@ package mycasbin
 import (
 	"sync/atomic"
 
-	"git.tz.com/devops/gin-core/logger"
+	"github.com/devops-base/devops-core/logger"
 )
 
 // Logger is the implementation for a Logger using golang log.

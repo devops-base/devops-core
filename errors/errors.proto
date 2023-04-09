@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package errors;
 
-option go_package = "git.tz.com/devops/gin-core/errors";
+option go_package = "github.com/devops-base/devops-core/errors";
 
 message Error {
   // Success if request is success

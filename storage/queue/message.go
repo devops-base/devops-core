@@ -4,7 +4,7 @@ import (
 	"github.com/go-admin-team/redisqueue/v2"
 	"sync"
 
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/storage"
 )
 
 type Message struct {

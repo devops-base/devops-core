@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"git.tz.com/devops/gin-core/config"
-	"git.tz.com/devops/gin-core/config/source/file"
+	"github.com/devops-base/devops-core/config"
+	"github.com/devops-base/devops-core/config/source/file"
 )
 
 func TestConfig(t *testing.T) {

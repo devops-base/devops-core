@@ -1,6 +1,6 @@
 package config
 
-import "git.tz.com/devops/gin-core/sdk/pkg/logger"
+import "github.com/devops-base/devops-core/sdk/pkg/logger"
 
 type Logger struct {
 	Type      string

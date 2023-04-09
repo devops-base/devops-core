@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"sync"
 
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/storage"
-	"git.tz.com/devops/gin-core/storage/queue"
 	"github.com/casbin/casbin/v2"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/storage"
+	"github.com/devops-base/devops-core/storage/queue"
 	"github.com/robfig/cron/v3"
 	"gorm.io/gorm"
 )

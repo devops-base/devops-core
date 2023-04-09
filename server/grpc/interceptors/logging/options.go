@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/server/grpc/interceptors/logging/ctxlog"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/server/grpc/interceptors/logging/ctxlog"
 	grpc_logging "github.com/grpc-ecosystem/go-grpc-middleware/logging"
 	"google.golang.org/grpc/codes"
 )

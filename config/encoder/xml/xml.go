@@ -3,7 +3,7 @@ package xml
 import (
 	"encoding/xml"
 
-	"git.tz.com/devops/gin-core/config/encoder"
+	"github.com/devops-base/devops-core/config/encoder"
 )
 
 type xmlEncoder struct{}

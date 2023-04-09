@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/storage"
 )
 
 type queue chan storage.Messager

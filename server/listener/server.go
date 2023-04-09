@@ -5,8 +5,8 @@ import (
 	"net"
 	"net/http"
 
-	log "git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/server"
+	log "github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/server"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

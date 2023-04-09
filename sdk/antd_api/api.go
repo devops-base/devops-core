@@ -3,16 +3,16 @@ package antd_apis
 import (
 	"errors"
 	"fmt"
-	"git.tz.com/devops/gin-core/sdk/service"
 	vd "github.com/bytedance/go-tagexpr/v2/validator"
+	"github.com/devops-base/devops-core/sdk/service"
 	"github.com/gin-gonic/gin/binding"
 	"net/http"
 	"strconv"
 
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/sdk/api"
-	"git.tz.com/devops/gin-core/sdk/pkg"
-	"git.tz.com/devops/gin-core/sdk/pkg/response/antd"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/sdk/api"
+	"github.com/devops-base/devops-core/sdk/pkg"
+	"github.com/devops-base/devops-core/sdk/pkg/response/antd"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

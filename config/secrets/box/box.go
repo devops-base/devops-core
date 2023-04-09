@@ -2,7 +2,7 @@
 package box
 
 import (
-	"git.tz.com/devops/gin-core/config/secrets"
+	"github.com/devops-base/devops-core/config/secrets"
 	"github.com/pkg/errors"
 	naclbox "golang.org/x/crypto/nacl/box"
 

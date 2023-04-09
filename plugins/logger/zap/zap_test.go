@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"git.tz.com/devops/gin-core/debug/writer"
-	"git.tz.com/devops/gin-core/logger"
+	"github.com/devops-base/devops-core/debug/writer"
+	"github.com/devops-base/devops-core/logger"
 )
 
 func TestName(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"git.tz.com/devops/gin-core/config/secrets"
+	"github.com/devops-base/devops-core/config/secrets"
 )
 
 func TestSecretBox(t *testing.T) {

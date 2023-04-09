@@ -3,7 +3,7 @@
 package secretbox
 
 import (
-	"git.tz.com/devops/gin-core/config/secrets"
+	"github.com/devops-base/devops-core/config/secrets"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/nacl/secretbox"
 

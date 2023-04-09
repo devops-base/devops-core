@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	logCore "git.tz.com/devops/gin-core/logger"
+	logCore "github.com/devops-base/devops-core/logger"
 	"gorm.io/gorm/logger"
 )
 

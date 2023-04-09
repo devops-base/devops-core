@@ -3,8 +3,8 @@ package service
 import (
 	"fmt"
 
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/storage"
 	"gorm.io/gorm"
 )
 

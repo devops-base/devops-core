@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"git.tz.com/devops/gin-core/config/encoder"
-	"git.tz.com/devops/gin-core/config/encoder/json"
-	"git.tz.com/devops/gin-core/config/reader"
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/encoder"
+	"github.com/devops-base/devops-core/config/encoder/json"
+	"github.com/devops-base/devops-core/config/reader"
+	"github.com/devops-base/devops-core/config/source"
 	"github.com/imdario/mergo"
 )
 

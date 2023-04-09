@@ -3,8 +3,8 @@ package source
 import (
 	"context"
 
-	"git.tz.com/devops/gin-core/config/encoder"
-	"git.tz.com/devops/gin-core/config/encoder/json"
+	"github.com/devops-base/devops-core/config/encoder"
+	"github.com/devops-base/devops-core/config/encoder/json"
 )
 
 type Options struct {

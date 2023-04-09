@@ -3,7 +3,7 @@ package runtime
 import (
 	"github.com/bsm/redislock"
 
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/storage"
 )
 
 // NewLocker 创建对应上下文分布式锁

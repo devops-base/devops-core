@@ -3,7 +3,7 @@ package file
 import (
 	"strings"
 
-	"git.tz.com/devops/gin-core/config/encoder"
+	"github.com/devops-base/devops-core/config/encoder"
 )
 
 func format(p string, e encoder.Encoder) string {

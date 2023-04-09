@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/storage"
 )
 
 func TestRedis_Append(t *testing.T) {

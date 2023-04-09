@@ -3,7 +3,7 @@ package flag
 import (
 	"errors"
 	"flag"
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/source"
 	"github.com/imdario/mergo"
 	"strings"
 	"time"

@@ -7,7 +7,7 @@ import (
 	"net"
 	"sync"
 
-	log "git.tz.com/devops/gin-core/logger"
+	log "github.com/devops-base/devops-core/logger"
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"google.golang.org/grpc"

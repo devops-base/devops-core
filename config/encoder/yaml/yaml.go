@@ -1,7 +1,7 @@
 package yaml
 
 import (
-	"git.tz.com/devops/gin-core/config/encoder"
+	"github.com/devops-base/devops-core/config/encoder"
 	"github.com/ghodss/yaml"
 )
 

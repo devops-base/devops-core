@@ -1,4 +1,4 @@
-module git.tz.com/devops/gin-core
+module github.com/devops-base/devops-core
 
 go 1.18
 
@@ -119,3 +119,4 @@ require (
 	gorm.io/driver/sqlite v1.1.4 // indirect
 	gorm.io/driver/sqlserver v1.0.4 // indirect
 )
+

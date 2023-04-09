@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"git.tz.com/devops/gin-core/config/loader"
-	"git.tz.com/devops/gin-core/config/reader"
-	"git.tz.com/devops/gin-core/config/source"
-	"git.tz.com/devops/gin-core/config/source/file"
+	"github.com/devops-base/devops-core/config/loader"
+	"github.com/devops-base/devops-core/config/reader"
+	"github.com/devops-base/devops-core/config/source"
+	"github.com/devops-base/devops-core/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration

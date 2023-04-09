@@ -8,7 +8,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/utils"
 
-	loggerCore "git.tz.com/devops/gin-core/logger"
+	loggerCore "github.com/devops-base/devops-core/logger"
 )
 
 // Colors

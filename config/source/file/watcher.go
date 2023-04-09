@@ -6,7 +6,7 @@ package file
 import (
 	"os"
 
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/source"
 	"github.com/fsnotify/fsnotify"
 )
 

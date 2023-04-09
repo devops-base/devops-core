@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 type file struct {

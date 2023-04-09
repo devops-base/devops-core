@@ -3,8 +3,8 @@ package user
 import (
 	"fmt"
 
-	"git.tz.com/devops/gin-core/sdk/pkg"
-	jwt "git.tz.com/devops/gin-core/sdk/pkg/jwtauth"
+	"github.com/devops-base/devops-core/sdk/pkg"
+	jwt "github.com/devops-base/devops-core/sdk/pkg/jwtauth"
 	"github.com/gin-gonic/gin"
 )
 

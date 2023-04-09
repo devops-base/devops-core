@@ -1,7 +1,7 @@
 package antd
 
 import (
-	"git.tz.com/devops/gin-core/sdk/pkg"
+	"github.com/devops-base/devops-core/sdk/pkg"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

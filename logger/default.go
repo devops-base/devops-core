@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "git.tz.com/devops/gin-core/debug/log"
+	dlog "github.com/devops-base/devops-core/debug/log"
 )
 
 func init() {

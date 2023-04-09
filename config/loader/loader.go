@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"git.tz.com/devops/gin-core/config/reader"
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/reader"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 // Loader manages loading sources

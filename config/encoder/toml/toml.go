@@ -3,8 +3,8 @@ package toml
 import (
 	"bytes"
 
-	"git.tz.com/devops/gin-core/config/encoder"
 	"github.com/BurntSushi/toml"
+	"github.com/devops-base/devops-core/config/encoder"
 )
 
 type tomlEncoder struct{}

@@ -5,8 +5,8 @@ import (
 	"path"
 	"time"
 
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/server/grpc/interceptors/logging/ctxlog"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/server/grpc/interceptors/logging/ctxlog"
 	"google.golang.org/grpc"
 )
 

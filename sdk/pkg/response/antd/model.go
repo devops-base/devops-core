@@ -3,7 +3,7 @@ package antd
 import (
 	"fmt"
 
-	resp "git.tz.com/devops/gin-core/sdk/pkg/response"
+	resp "github.com/devops-base/devops-core/sdk/pkg/response"
 )
 
 const (

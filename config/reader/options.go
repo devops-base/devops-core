@@ -1,11 +1,11 @@
 package reader
 
 import (
-	"git.tz.com/devops/gin-core/config/encoder"
-	"git.tz.com/devops/gin-core/config/encoder/json"
-	"git.tz.com/devops/gin-core/config/encoder/toml"
-	"git.tz.com/devops/gin-core/config/encoder/xml"
-	"git.tz.com/devops/gin-core/config/encoder/yaml"
+	"github.com/devops-base/devops-core/config/encoder"
+	"github.com/devops-base/devops-core/config/encoder/json"
+	"github.com/devops-base/devops-core/config/encoder/toml"
+	"github.com/devops-base/devops-core/config/encoder/xml"
+	"github.com/devops-base/devops-core/config/encoder/yaml"
 )
 
 type Options struct {

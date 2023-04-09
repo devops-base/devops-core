@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"git.tz.com/devops/gin-core/storage"
-	"git.tz.com/devops/gin-core/storage/queue"
+	"github.com/devops-base/devops-core/storage"
+	"github.com/devops-base/devops-core/storage/queue"
 )
 
 func TestNewMemoryQueue(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"git.tz.com/devops/gin-core/storage"
-	"git.tz.com/devops/gin-core/storage/cache"
+	"github.com/devops-base/devops-core/storage"
+	"github.com/devops-base/devops-core/storage/cache"
 	"github.com/mojocn/base64Captcha"
 )
 

@@ -2,7 +2,7 @@ package requesttag
 
 import (
 	"context"
-	"git.tz.com/devops/gin-core/tools/utils"
+	"github.com/devops-base/devops-core/tools/utils"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

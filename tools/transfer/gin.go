@@ -13,7 +13,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"git.tz.com/devops/gin-core/transfer"
+	"github.com/devops-base/devops-core/transfer"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"git.tz.com/devops/gin-core/config/secrets"
+	"github.com/devops-base/devops-core/config/secrets"
 	naclbox "golang.org/x/crypto/nacl/box"
 )
 

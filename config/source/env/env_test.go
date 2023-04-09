@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 func TestEnv_Read(t *testing.T) {

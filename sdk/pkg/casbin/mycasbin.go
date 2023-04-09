@@ -3,9 +3,9 @@ package mycasbin
 import (
 	"sync"
 
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/sdk"
-	"git.tz.com/devops/gin-core/sdk/config"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/sdk"
+	"github.com/devops-base/devops-core/sdk/config"
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/log"
 	"github.com/casbin/casbin/v2/model"

@@ -1,8 +1,8 @@
 package config
 
 import (
-	"git.tz.com/devops/gin-core/storage"
-	"git.tz.com/devops/gin-core/storage/cache"
+	"github.com/devops-base/devops-core/storage"
+	"github.com/devops-base/devops-core/storage/cache"
 )
 
 type Cache struct {

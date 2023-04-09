@@ -1,8 +1,8 @@
 package config
 
 import (
-	"git.tz.com/devops/gin-core/storage"
-	"git.tz.com/devops/gin-core/storage/queue"
+	"github.com/devops-base/devops-core/storage"
+	"github.com/devops-base/devops-core/storage/queue"
 	"github.com/go-admin-team/redisqueue/v2"
 	"github.com/go-redis/redis/v9"
 	"time"

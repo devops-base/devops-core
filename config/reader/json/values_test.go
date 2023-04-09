@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 func TestValues(t *testing.T) {

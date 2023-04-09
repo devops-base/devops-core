@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"git.tz.com/devops/gin-core/logger"
+	"github.com/devops-base/devops-core/logger"
 )
 
 type Options struct {

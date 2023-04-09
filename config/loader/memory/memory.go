@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"git.tz.com/devops/gin-core/config/loader"
-	"git.tz.com/devops/gin-core/config/reader"
-	"git.tz.com/devops/gin-core/config/reader/json"
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/loader"
+	"github.com/devops-base/devops-core/config/reader"
+	"github.com/devops-base/devops-core/config/reader/json"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 type memory struct {

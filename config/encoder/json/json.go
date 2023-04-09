@@ -2,8 +2,7 @@ package json
 
 import (
 	"encoding/json"
-
-	"git.tz.com/devops/gin-core/config/encoder"
+	"github.com/devops-base/devops-core/config/encoder"
 )
 
 type jsonEncoder struct{}

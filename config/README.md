@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 	
-	"git.tz.com/devops/gin-core/config"
-	"git.tz.com/devops/gin-core/config/source/file"
+	"github.com/devops-base/devops-core/config"
+	"github.com/devops-base/devops-core/config/source/file"
 )
 
 func TestApp(t *testing.T)  {

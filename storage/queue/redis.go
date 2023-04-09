@@ -1,7 +1,7 @@
 package queue
 
 import (
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/storage"
 	"github.com/go-admin-team/redisqueue/v2"
 	"github.com/go-redis/redis/v9"
 )

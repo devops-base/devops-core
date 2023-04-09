@@ -1,6 +1,6 @@
 package runtime
 
-import "git.tz.com/devops/gin-core/storage"
+import "github.com/devops-base/devops-core/storage"
 
 // NewQueue 创建对应上下文队列
 func NewQueue(prefix string, queue storage.AdapterQueue) storage.AdapterQueue {

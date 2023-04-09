@@ -4,8 +4,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 
-	"git.tz.com/devops/gin-core/logger"
-	"git.tz.com/devops/gin-core/storage"
+	"github.com/devops-base/devops-core/logger"
+	"github.com/devops-base/devops-core/storage"
 	"github.com/casbin/casbin/v2"
 	"github.com/robfig/cron/v3"
 	"gorm.io/gorm"

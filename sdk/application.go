@@ -1,5 +1,5 @@
 package sdk
 
-import "git.tz.com/devops/gin-core/sdk/runtime"
+import "github.com/devops-base/devops-core/sdk/runtime"
 
 var Runtime runtime.Runtime = runtime.NewConfig()

@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 type changeSetKey struct{}

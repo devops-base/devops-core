@@ -1,8 +1,8 @@
 package config
 
 import (
-	"git.tz.com/devops/gin-core/storage"
-	"git.tz.com/devops/gin-core/storage/locker"
+	"github.com/devops-base/devops-core/storage"
+	"github.com/devops-base/devops-core/storage/locker"
 	"github.com/go-redis/redis/v9"
 )
 

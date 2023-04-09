@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"git.tz.com/devops/gin-core/config"
-	"git.tz.com/devops/gin-core/config/source"
+	"github.com/devops-base/devops-core/config"
+	"github.com/devops-base/devops-core/config/source"
 )
 
 var (

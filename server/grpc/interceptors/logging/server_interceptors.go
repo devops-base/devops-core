@@ -5,8 +5,8 @@ import (
 	"path"
 	"time"
 
-	"git.tz.com/devops/gin-core/server/grpc/interceptors/logging/ctxlog"
-	"git.tz.com/devops/gin-core/tools/utils"
+	"github.com/devops-base/devops-core/server/grpc/interceptors/logging/ctxlog"
+	"github.com/devops-base/devops-core/tools/utils"
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	"google.golang.org/grpc"
 )
