@@ -1,4 +1,4 @@
-# gin-core 公共代码库
+# devops-core 公共代码库
 
 ### 参考go-admin项目(https://github.com/go-admin-team/go-admin-core)
 

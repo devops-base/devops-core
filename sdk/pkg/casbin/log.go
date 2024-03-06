@@ -1,6 +1,7 @@
 package mycasbin
 
 import (
+	"log/slog"
 	"sync/atomic"
 
 	"github.com/devops-base/devops-core/logger"
@@ -9,6 +10,10 @@ import (
 // Logger is the implementation for a Logger using golang log.
 type Logger struct {
 	enable int32
+}
+
+func (l *Logger) LogError(err error, msg ...string) {
+	slog.Error(err.Error(), msg, err)
 }
 
 // EnableLog controls whether print the message.
@@ -62,15 +67,3 @@ func (l *Logger) LogPolicy(policy map[string][][]string) {
 	}
 	logger.DefaultLogger.Fields(data).Log(logger.InfoLevel, nil)
 }
-
-//func (l *Logger) Print(v ...interface{}) {
-//	if l.IsEnabled() {
-//		logger.DefaultLogger.Log(logger.InfoLevel, v...)
-//	}
-//}
-//
-//func (l *Logger) Printf(format string, v ...interface{}) {
-//	if l.IsEnabled() {
-//		logger.DefaultLogger.Logf(logger.InfoLevel, format, v...)
-//	}
-//}
